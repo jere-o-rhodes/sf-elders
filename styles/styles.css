@@ -1,0 +1,28 @@
+html {
+	font-size: 16px;
+}
+
+
+h3 {
+	font-family: "neue-haas-unica", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 1rem;
+}
+
+h1 {
+	font-family: "cooper-black-std", serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 4.5rem;
+	text-align: center;
+}
+
+img {
+	width: 700px;
+}
+
+body {
+	background-image: url(../assets/background-copy.jpg);
+	background-size: 2000px 1000px;
+}
