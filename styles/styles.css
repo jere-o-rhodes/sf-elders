@@ -22,9 +22,9 @@ body {
 	background-image: url(../assets/background-copy.jpg);
 	background-size: 2000px 1000px;
 }
-.thumbnail:hover {
+/*.thumbnail:hover {
 	opacity:0.5;
-}
+}*/
 
 img {
 	width:100%;
