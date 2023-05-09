@@ -4,31 +4,45 @@ html {
 
 
 p {
-	font-family: "neue-haas-unica", sans-serif;
-	font-weight: 400;
+	font-family: "articulat-cf", sans-serif;
+	font-weight: 700;
 	font-style: normal;
-	font-size: 1rem;
+	font-size: 1.8rem;
+	color: white;
+	margin-bottom: 70px;
 }
 
 h1 {
-	font-family: "source serif pro", serif;
-	font-weight: 900;
+	font-family: "larken", sans-serif;
+	font-weight: 500;
 	font-style: normal;
-	font-size: 3.5rem;
+	font-size: 5rem;
 	text-align: center;
+	margin-left: 20px;
+	color: white;
 }
 
 body {
-	background-image: url(../assets/background-copy.jpg);
+	background-image: url(../assets/background-03.jpg);
 	background-size: 2000px 1000px;
 }
 .thumbnail:hover {
 	opacity:0.5;
 }
 
-img {
-	width:100%;
+p {
+	margin-left: 50px;
+	text-align: center;
 }
+/*img {
+	width:150%;
+	border-radius:50%;
+	margin-bottom: 200px
+}
+
+.img-1 {
+	object-position:30%;
+}*/
 
 figcaption {
 	font-family: "source serif pro", serif;
@@ -41,4 +55,46 @@ figcaption {
 
 .italics {
 	font-style: italic;
+}
+
+
+.contained {
+  position: relative;
+/*  width: 50%;*/
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #F2BB9B;
+}
+
+.contained:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  font-family: "articulat-cf", sans-serif;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
